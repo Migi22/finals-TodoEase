@@ -11,15 +11,11 @@ Color darkHeaderClr = Color(0xFF424242);
 
 class Themes {
   static final light = ThemeData(
-        appBarTheme: AppBarTheme(
-          backgroundColor: lightCyan, // Ensures AppBar uses primary color
-        ),
+        primaryColor: lightCyan,
         brightness: Brightness.light,
   );
   static final dark = ThemeData(
-        appBarTheme: AppBarTheme(
-          backgroundColor: darkCyan, // Ensures AppBar uses primary color
-        ),
+        primaryColor: darkCyan,
         brightness: Brightness.dark,  
   );
 }
